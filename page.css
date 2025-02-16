@@ -1,0 +1,375 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "tahoma";
+}
+
+/* Start NavBar */
+.bar {
+    background-color: #f5f7f7;
+    width: 100%;
+}
+
+.bar ul {
+    list-style: none;
+}
+
+.bar ul li {
+    display: inline-block;
+    margin-right: 70px;
+    color: gray;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.bar ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.bar ul li a:hover {
+    color: #ff871e;
+}
+
+ul li:first-child {
+    margin-left: 190px;
+    margin-right: 0;
+}
+
+ul li:last-child img {
+    width: 20px;
+}
+
+ul li:nth-child(2) {
+    margin-right: 400px;
+    color: black;
+    font-size: 18px;
+}
+
+ul li img {
+    width: 30px;
+}
+
+ul li span {
+    font-weight: bold;
+}
+
+/* End NavBar */
+
+/* Start Home */
+.container {
+    width: 100%;
+}
+
+.Hpage {
+    width: 87.5%;
+    height: 65%;
+    padding-top: 150px;
+    background-color: #f5f7f7;
+    padding-left: 190px;
+    position: relative;
+}
+
+.Hpage .welcome {
+    width: 35%;
+    position: absolute;
+    text-align: start;
+    top: 150;
+    left: 190;
+}
+
+.Hpage .welcome h1 {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.Hpage .welcome p {
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.Hpage .img {
+    position: absolute;
+    right: 230px;
+
+}
+
+.Hpage .welcome .button span {
+    width: 100px;
+    height: 40px;
+    padding: 15px 25px;
+    margin-right: 15px;
+    color: white;
+}
+
+.Hpage .welcome .button span:first-child {
+    background-color: #ff871e;
+}
+
+.Hpage .welcome .button span:last-child {
+    background-color: black;
+}
+
+.text {
+    width: 100%;
+    height: 200px;
+}
+
+/* End Home */
+/* Start Services */
+.services {
+    padding-top: 100px;
+    width: 100%;
+}
+
+.services h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.services p {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #181717;
+}
+
+.services .S-table {
+    padding-left: 190px;
+    padding-right: 190px;
+    text-align: center;
+}
+
+.services .S-content {
+    text-align: center;
+
+}
+
+.services .S-content .product {
+    border: 0.5px solid #e2dfdf;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.services .S-content .product:hover {
+    border-top: 10px solid #ff871e;
+}
+
+.services .S-content .product img {
+    width: 50px;
+    margin-bottom: 25px;
+    margin-top: 60px;
+}
+
+.services .S-content .product .head {
+    color: #ff871e;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.services .S-content .product p {
+    line-height: 1.5;
+    color: #181717;
+    margin-bottom: 15px;
+}
+
+.services .more {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.services .more span {
+    background-color: #181717;
+    color: white;
+    padding: 10px 30px;
+
+}
+
+.services .more span:hover {
+    color: #181717;
+    background-color: white;
+    border: 1px solid black;
+}
+
+/* End Services */
+/* Start Fruits  */
+.fruits h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fruits p {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #181717;
+}
+
+.fruits .head {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.fruits .F-table {
+    padding-left: 140px;
+
+}
+
+
+
+.fruits .F-table .one {
+    width: 60%
+}
+
+.fruits table p {
+    line-height: 1.5;
+    text-align: left;
+}
+
+.fruits table img {
+    width: 200px;
+    margin-left: 100px;
+    margin-top: -40px;
+}
+
+.fruits table tr .grapes {
+    margin-left: 150px;
+    width: 100px;
+}
+
+.fruits .F-table .buy {
+    background-color: black;
+    color: white;
+    padding: 15px 35px;
+}
+
+.fruits .F-table .buy:hover {
+    color: #181717;
+    background-color: white;
+    border: 1px solid black;
+}
+/* End Fruits  */
+/* Start Banner */
+.banner{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    margin-bottom: 60px;
+}
+.banner img{
+    width: 100%;
+    height: 400px;
+}
+.banner h1{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 80px;
+}
+/* End Banner */
+/* Start client  */
+.client{
+    text-align: center;
+}
+.client h1{
+    margin-bottom: 20px;
+}
+.client .desc{
+    margin-bottom: 50px;
+}
+.client img{
+    width: 300px;
+}
+.client .name{
+    font-size: 25;
+    margin-bottom: 25px;
+}
+
+.client p{
+    padding-left: 190px;
+    padding-right: 190px;
+    color: #181717;
+    margin-bottom: 150px;
+}
+/* End client  */
+/* Start contact us  */
+.contact-us{
+    padding-left: 190px;
+}
+.contact-us img{
+    width: 200px;
+    margin-left: 721px;
+}
+.contact-us h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.contact-us .one{
+ margin-top: -50px;
+}
+.contact-us input{
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    width: 400px;
+    margin-bottom:10px;
+}
+.contact-us input[name=Email]{
+    margin-bottom: 55px;
+}
+.contact-us input[name=message]{
+    margin-bottom: 50px;
+}
+.contact-us span{
+    background-color: #ff871e;
+    color: white;
+    margin-top: 50px;
+    padding: 10px 35px;
+}
+
+/* End contact us  */
+/* Start footer  */
+.footer table{
+    margin-bottom: -70px;
+}
+.footer table .hed{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:#181717;
+}
+.footer table p{
+    color: #3b3a3a;
+    line-height: 1.5;
+}
+.footer table .follow{
+    margin-top: -30px;
+}
+.footer table .imgs{
+    margin-top: 15px;
+}
+.footer table .sub{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.footer table .imgs img{
+    width: 30px;
+}
+.footer table input{
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.footer table span{
+    background-color: #ff871e;
+    color: white;
+    padding: 10px 30px;
+}
+/* End footer  */ 
+.copy{
+    /* width: 100%; */
+    background-color: #f0eeee;
+    text-align: center;
+    padding: 30px;
+    color: #181717;
+}

@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "tahoma";
+}
+
+/* Start NavBar */
+.bar {
+    background-color: #f5f7f7;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.bar ul {
+    list-style: none;
+}
+
+.bar ul li {
+    display: inline-block;
+    margin-right: 70px;
+    color: gray;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.bar ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.bar ul li a:hover {
+    color: #ff871e;
+}
+
+ul li:first-child {
+    margin-left: 190px;
+    margin-right: 0;
+}
+
+ul li:last-child img {
+    width: 20px;
+}
+
+ul li:nth-child(2) {
+    margin-right: 400px;
+    color: black;
+    font-size: 18px;
+}
+
+ul li img {
+    width: 30px;
+}
+
+ul li span {
+    font-weight: bold;
+}
+
+/* End NavBar */
+/* Start contact us  */
+.contact-us{
+    padding-left: 190px;
+}
+.contact-us img{
+    width: 200px;
+    margin-left: 721px;
+}
+.contact-us h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.contact-us .one{
+ margin-top: -50px;
+}
+.contact-us input{
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    width: 400px;
+    margin-bottom:10px;
+}
+.contact-us input[name=Email]{
+    margin-bottom: 55px;
+}
+.contact-us input[name=message]{
+    margin-bottom: 50px;
+}
+.contact-us span{
+    background-color: #ff871e;
+    color: white;
+    margin-top: 50px;
+    padding: 10px 35px;
+}
+
+/* End contact us  */
+/* Start footer  */
+.footer table{
+    margin-bottom: -70px;
+}
+.footer table .hed{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:#181717;
+}
+.footer table p{
+    color: #3b3a3a;
+    line-height: 1.5;
+}
+.footer table .follow{
+    margin-top: -30px;
+}
+.footer table .imgs{
+    margin-top: 15px;
+}
+.footer table .sub{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.footer table .imgs img{
+    width: 30px;
+}
+.footer table input{
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.footer table span{
+    background-color: #ff871e;
+    color: white;
+    padding: 10px 30px;
+}
+/* End footer  */ 
+.copy{
+    /* width: 100%; */
+    background-color: #f0eeee;
+    text-align: center;
+    padding: 30px;
+    color: #181717;
+}

@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "tahoma";
+}
+/* Start NavBar */
+.bar {
+    background-color: #f5f7f7;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.bar ul {
+    list-style: none;
+}
+
+.bar ul li {
+    display: inline-block;
+    margin-right: 70px;
+    color: gray;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.bar ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.bar ul li a:hover {
+    color: #ff871e;
+}
+
+ul li:first-child {
+    margin-left: 190px;
+    margin-right: 0;
+}
+
+ul li:last-child img {
+    width: 20px;
+}
+
+ul li:nth-child(2) {
+    margin-right: 400px;
+    color: black;
+    font-size: 18px;
+}
+
+ul li img {
+    width: 30px;
+}
+
+ul li span {
+    font-weight: bold;
+}
+
+/* End NavBar */
+/* Start Fruits  */
+.fruits h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fruits p {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #181717;
+}
+
+.fruits .head {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.fruits .F-table {
+    padding-left: 140px;
+
+}
+
+
+
+.fruits .F-table .one {
+    width: 60%
+}
+
+.fruits table p {
+    line-height: 1.5;
+    text-align: left;
+}
+
+.fruits table img {
+    width: 200px;
+    margin-left: 100px;
+    margin-top: -40px;
+}
+
+.fruits table tr .grapes {
+    margin-left: 150px;
+    width: 100px;
+}
+
+.fruits .F-table .buy {
+    background-color: black;
+    color: white;
+    padding: 15px 35px;
+}
+
+.fruits .F-table .buy:hover {
+    color: #181717;
+    background-color: white;
+    border: 1px solid black;
+}
+/* End Fruits  */
+/* Start footer  */
+.footer table{
+    margin-bottom: -70px;
+}
+.footer table .hed{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:#181717;
+}
+.footer table p{
+    color: #3b3a3a;
+    line-height: 1.5;
+}
+.footer table .follow{
+    margin-top: -30px;
+}
+.footer table .imgs{
+    margin-top: 15px;
+}
+.footer table .sub{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.footer table .imgs img{
+    width: 30px;
+}
+.footer table input{
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.footer table span{
+    background-color: #ff871e;
+    color: white;
+    padding: 10px 30px;
+}
+/* End footer  */ 
+.copy{
+    /* width: 100%; */
+    background-color: #f0eeee;
+    text-align: center;
+    padding: 30px;
+    color: #181717;
+}
